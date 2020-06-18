@@ -48,6 +48,7 @@ um padding ou margin em relação à ela*/
     top:40%;
     left: 50%;
     transform: translate(-50%,-50%);
+    text-align: center;
 }
 .heading-primary{
     color:#ffffff;
@@ -97,3 +98,20 @@ um padding ou margin em relação à ela*/
         opacity: 1;
     }
 }
+.btn:link,
+.btn:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+}
+.btn:hover{
+    transform: translateY(-3px);
+}
+.btn:active{
+    transform: translateY(-1px);
+}
+.btn-white{
+    color:#777;
+    background-color: #ffff;
+  
